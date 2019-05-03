@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "jest --config jest.config.unit.js",
+    "test": "jest --config jest.config.js",
     "lint": "standard",
     "lint:fix": "standard --fix",
     "console": "node src/segments/interfaces/console/index.js"
