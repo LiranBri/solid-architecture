@@ -1,0 +1,20 @@
+version: 2
+registries:
+  git-gitlab-com:
+    type: git
+    url: https://gitlab.com
+    username: liranbri
+    password: "${{secrets.GIT_GITLAB_COM_PASSWORD}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/app"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  registries:
+  - git-gitlab-com
