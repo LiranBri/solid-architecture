@@ -32,7 +32,7 @@ abbrev@1:
   version "1.1.1"
   resolved "https://nexus.exelator.net/repository/npm-all/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-accepts@~1.3.4, accepts@~1.3.5:
+accepts@~1.3.5:
   version "1.3.5"
   resolved "https://nexus.exelator.net/repository/npm-all/accepts/-/accepts-1.3.5.tgz#eb777df6011723a3b14e8a72c0805c8e86746bd2"
   dependencies:
@@ -71,10 +71,6 @@ acorn@^5.5.0, acorn@^5.5.3:
 acorn@^6.0.1, acorn@^6.0.2:
   version "6.0.5"
   resolved "https://nexus.exelator.net/repository/npm-all/acorn/-/acorn-6.0.5.tgz#81730c0815f3f3b34d8efa95cb7430965f4d887a"
-
-after@0.8.2:
-  version "0.8.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/after/-/after-0.8.2.tgz#fedb394f9f0e02aa9768e702bda23b505fae7e1f"
 
 ajv-keywords@^2.1.0:
   version "2.1.1"
@@ -194,10 +190,6 @@ array-unique@^0.2.1:
 array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://nexus.exelator.net/repository/npm-all/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
-
-arraybuffer.slice@~0.0.7:
-  version "0.0.7"
-  resolved "https://nexus.exelator.net/repository/npm-all/arraybuffer.slice/-/arraybuffer.slice-0.0.7.tgz#3bbc4275dd584cc1b10809b89d4e8b63a69e7675"
 
 arrify@^1.0.1:
   version "1.0.1"
@@ -424,21 +416,9 @@ babylon@^6.18.0:
   version "6.18.0"
   resolved "https://nexus.exelator.net/repository/npm-all/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
-backo2@1.0.2:
-  version "1.0.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
-
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://nexus.exelator.net/repository/npm-all/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
-
-base64-arraybuffer@0.1.5:
-  version "0.1.5"
-  resolved "https://nexus.exelator.net/repository/npm-all/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
-
-base64id@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/base64id/-/base64id-1.0.0.tgz#47688cb99bb6804f0e06d3e763b1c32e57d8e6b6"
 
 base@^0.11.1:
   version "0.11.2"
@@ -457,16 +437,6 @@ bcrypt-pbkdf@^1.0.0:
   resolved "https://nexus.exelator.net/repository/npm-all/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
   dependencies:
     tweetnacl "^0.14.3"
-
-better-assert@~1.0.0:
-  version "1.0.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/better-assert/-/better-assert-1.0.2.tgz#40866b9e1b9e0b55b481894311e68faffaebc522"
-  dependencies:
-    callsite "1.0.0"
-
-blob@0.0.5:
-  version "0.0.5"
-  resolved "https://nexus.exelator.net/repository/npm-all/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
 
 bluebird@^3.4.6, bluebird@^3.5.0:
   version "3.5.3"
@@ -569,10 +539,6 @@ caller-path@^0.1.0:
   dependencies:
     callsites "^0.2.0"
 
-callsite@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
-
 callsites@^0.2.0:
   version "0.2.0"
   resolved "https://nexus.exelator.net/repository/npm-all/callsites/-/callsites-0.2.0.tgz#afab96262910a7f33c19a5775825c69f34e350ca"
@@ -595,10 +561,6 @@ camelcase@^2.0.1:
 camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://nexus.exelator.net/repository/npm-all/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
-
-camelize@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -713,11 +675,11 @@ color-name@1.1.3:
 
 color-name@^1.0.0:
   version "1.1.4"
-  resolved "https://nexus.exelator.net/repository/npm-all/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
+  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
 
 color-string@^1.5.2:
-  version "1.5.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/color-string/-/color-string-1.5.3.tgz#c9bbc5f01b58b5492f3d6857459cb6590ce204cc"
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.5.tgz#65474a8f0e7439625f3d27a6a19d89fc45223014"
   dependencies:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
@@ -754,17 +716,9 @@ commander@~2.17.1:
   version "2.17.1"
   resolved "https://nexus.exelator.net/repository/npm-all/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
-component-bind@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/component-bind/-/component-bind-1.0.0.tgz#00c608ab7dcd93897c0009651b1d3a8e1e73bbd1"
-
-component-emitter@1.2.1, component-emitter@^1.2.0, component-emitter@^1.2.1:
+component-emitter@^1.2.0, component-emitter@^1.2.1:
   version "1.2.1"
   resolved "https://nexus.exelator.net/repository/npm-all/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
-
-component-inherit@0.0.3:
-  version "0.0.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/component-inherit/-/component-inherit-0.0.3.tgz#645fc4adf58b72b649d5cae65135619db26ff143"
 
 compressible@~2.0.14:
   version "2.0.15"
@@ -808,10 +762,6 @@ contains-path@^0.1.0:
 content-disposition@0.5.2:
   version "0.5.2"
   resolved "https://nexus.exelator.net/repository/npm-all/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
-
-content-security-policy-builder@2.0.0:
-  version "2.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/content-security-policy-builder/-/content-security-policy-builder-2.0.0.tgz#8749a1d542fcbe82237281ea9f716ce68b394dd2"
 
 content-type@~1.0.4:
   version "1.0.4"
@@ -888,10 +838,6 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-dasherize@2.0.0:
-  version "2.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/dasherize/-/dasherize-2.0.0.tgz#6d809c9cd0cf7bb8952d80fc84fa13d47ddb1308"
-
 data-urls@^1.0.0:
   version "1.1.0"
   resolved "https://nexus.exelator.net/repository/npm-all/data-urls/-/data-urls-1.1.0.tgz#15ee0582baa5e22bb59c77140da8f9c76963bbfe"
@@ -910,7 +856,7 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0, debug@~3.1.0:
+debug@=3.1.0:
   version "3.1.0"
   resolved "https://nexus.exelator.net/repository/npm-all/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
@@ -919,12 +865,6 @@ debug@=3.1.0, debug@~3.1.0:
 debug@^3.1.0:
   version "3.2.6"
   resolved "https://nexus.exelator.net/repository/npm-all/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
-  dependencies:
-    ms "^2.1.1"
-
-debug@~4.1.0:
-  version "4.1.1"
-  resolved "https://nexus.exelator.net/repository/npm-all/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   dependencies:
     ms "^2.1.1"
 
@@ -1032,10 +972,6 @@ diff@^3.2.0:
   version "3.5.0"
   resolved "https://nexus.exelator.net/repository/npm-all/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
 
-dns-prefetch-control@0.1.0:
-  version "0.1.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/dns-prefetch-control/-/dns-prefetch-control-0.1.0.tgz#60ddb457774e178f1f9415f0cabb0e85b0b300b2"
-
 doctrine@1.5.0:
   version "1.5.0"
   resolved "https://nexus.exelator.net/repository/npm-all/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
@@ -1054,10 +990,6 @@ domexception@^1.0.1:
   resolved "https://nexus.exelator.net/repository/npm-all/domexception/-/domexception-1.0.1.tgz#937442644ca6a31261ef36e3ec677fe805582c90"
   dependencies:
     webidl-conversions "^4.0.2"
-
-dont-sniff-mimetype@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/dont-sniff-mimetype/-/dont-sniff-mimetype-1.0.0.tgz#5932890dc9f4e2f19e5eb02a20026e5e5efc8f58"
 
 dotenv-flow@^0.2.0:
   version "0.2.0"
@@ -1105,43 +1037,6 @@ enabled@1.0.x:
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://nexus.exelator.net/repository/npm-all/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
-
-engine.io-client@~3.3.1:
-  version "3.3.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/engine.io-client/-/engine.io-client-3.3.2.tgz#04e068798d75beda14375a264bb3d742d7bc33aa"
-  dependencies:
-    component-emitter "1.2.1"
-    component-inherit "0.0.3"
-    debug "~3.1.0"
-    engine.io-parser "~2.1.1"
-    has-cors "1.1.0"
-    indexof "0.0.1"
-    parseqs "0.0.5"
-    parseuri "0.0.5"
-    ws "~6.1.0"
-    xmlhttprequest-ssl "~1.5.4"
-    yeast "0.1.2"
-
-engine.io-parser@~2.1.0, engine.io-parser@~2.1.1:
-  version "2.1.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/engine.io-parser/-/engine.io-parser-2.1.3.tgz#757ab970fbf2dfb32c7b74b033216d5739ef79a6"
-  dependencies:
-    after "0.8.2"
-    arraybuffer.slice "~0.0.7"
-    base64-arraybuffer "0.1.5"
-    blob "0.0.5"
-    has-binary2 "~1.0.2"
-
-engine.io@~3.3.1:
-  version "3.3.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/engine.io/-/engine.io-3.3.2.tgz#18cbc8b6f36e9461c5c0f81df2b830de16058a59"
-  dependencies:
-    accepts "~1.3.4"
-    base64id "1.0.0"
-    cookie "0.3.1"
-    debug "~3.1.0"
-    engine.io-parser "~2.1.0"
-    ws "~6.1.0"
 
 env-variable@0.0.x:
   version "0.0.5"
@@ -1465,10 +1360,6 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-expect-ct@0.1.1:
-  version "0.1.1"
-  resolved "https://nexus.exelator.net/repository/npm-all/expect-ct/-/expect-ct-0.1.1.tgz#de84476a2dbcb85000d5903737e9bc8a5ba7b897"
-
 expect@^23.6.0:
   version "23.6.0"
   resolved "https://nexus.exelator.net/repository/npm-all/expect/-/expect-23.6.0.tgz#1e0c8d3ba9a581c87bd71fb9bc8862d443425f98"
@@ -1487,17 +1378,6 @@ express-promise-router@^3.0.3:
     is-promise "^2.1.0"
     lodash.flattendeep "^4.0.0"
     methods "^1.0.0"
-
-express-status-monitor@^1.2.3:
-  version "1.2.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/express-status-monitor/-/express-status-monitor-1.2.3.tgz#033fa7e2dd41af432cf27e4453c5e2db2fd0b33d"
-  dependencies:
-    debug "^2.6.8"
-    handlebars "~4.0.12"
-    on-headers "^1.0.1"
-    pidusage "^1.1.6"
-    request-promise-native "^1.0.5"
-    socket.io "^2.0.3"
 
 express-winston@^3.0.1:
   version "3.0.1"
@@ -1618,10 +1498,6 @@ fb-watchman@^2.0.0:
   resolved "https://nexus.exelator.net/repository/npm-all/fb-watchman/-/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
   dependencies:
     bser "^2.0.0"
-
-feature-policy@0.2.0:
-  version "0.2.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/feature-policy/-/feature-policy-0.2.0.tgz#22096de49ab240176878ffe2bde2f6ff04d48c43"
 
 fecha@^2.3.3:
   version "2.3.3"
@@ -1750,10 +1626,6 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-frameguard@3.0.0:
-  version "3.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/frameguard/-/frameguard-3.0.0.tgz#7bcad469ee7b96e91d12ceb3959c78235a9272e9"
-
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://nexus.exelator.net/repository/npm-all/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
@@ -1872,7 +1744,7 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://nexus.exelator.net/repository/npm-all/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
 
-handlebars@^4.0.3, handlebars@~4.0.12:
+handlebars@^4.0.3:
   version "4.0.12"
   resolved "https://nexus.exelator.net/repository/npm-all/handlebars/-/handlebars-4.0.12.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
   dependencies:
@@ -1898,16 +1770,6 @@ has-ansi@^2.0.0:
   resolved "https://nexus.exelator.net/repository/npm-all/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
   dependencies:
     ansi-regex "^2.0.0"
-
-has-binary2@~1.0.2:
-  version "1.0.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/has-binary2/-/has-binary2-1.0.3.tgz#7776ac627f3ea77250cfc332dab7ddf5e4f5d11d"
-  dependencies:
-    isarray "2.0.1"
-
-has-cors@1.1.0:
-  version "1.1.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/has-cors/-/has-cors-1.1.0.tgz#5e474793f7ea9843d1bb99c23eef49ff126fff39"
 
 has-flag@^1.0.0:
   version "1.0.0"
@@ -1958,42 +1820,6 @@ has@^1.0.1, has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-helmet-crossdomain@0.3.0:
-  version "0.3.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/helmet-crossdomain/-/helmet-crossdomain-0.3.0.tgz#707e2df930f13ad61f76ed08e1bb51ab2b2e85fa"
-
-helmet-csp@2.7.1:
-  version "2.7.1"
-  resolved "https://nexus.exelator.net/repository/npm-all/helmet-csp/-/helmet-csp-2.7.1.tgz#e8e0b5186ffd4db625cfcce523758adbfadb9dca"
-  dependencies:
-    camelize "1.0.0"
-    content-security-policy-builder "2.0.0"
-    dasherize "2.0.0"
-    platform "1.3.5"
-
-helmet@^3.13.0:
-  version "3.15.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/helmet/-/helmet-3.15.0.tgz#fe0bb80e05d9eec589e3cbecaf5384409a3a64c9"
-  dependencies:
-    dns-prefetch-control "0.1.0"
-    dont-sniff-mimetype "1.0.0"
-    expect-ct "0.1.1"
-    feature-policy "0.2.0"
-    frameguard "3.0.0"
-    helmet-crossdomain "0.3.0"
-    helmet-csp "2.7.1"
-    hide-powered-by "1.0.0"
-    hpkp "2.0.0"
-    hsts "2.1.0"
-    ienoopen "1.0.0"
-    nocache "2.0.0"
-    referrer-policy "1.1.0"
-    x-xss-protection "1.1.0"
-
-hide-powered-by@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/hide-powered-by/-/hide-powered-by-1.0.0.tgz#4a85ad65881f62857fc70af7174a1184dccce32b"
-
 hoek@4.x.x:
   version "4.2.1"
   resolved "https://nexus.exelator.net/repository/npm-all/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
@@ -2012,14 +1838,6 @@ home-or-tmp@^2.0.0:
 hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://nexus.exelator.net/repository/npm-all/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
-
-hpkp@2.0.0:
-  version "2.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/hpkp/-/hpkp-2.0.0.tgz#10e142264e76215a5d30c44ec43de64dee6d1672"
-
-hsts@2.1.0:
-  version "2.1.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/hsts/-/hsts-2.1.0.tgz#cbd6c918a2385fee1dd5680bfb2b3a194c0121cc"
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -2059,10 +1877,6 @@ iconv-lite@0.4.24, iconv-lite@^0.4.17, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   resolved "https://nexus.exelator.net/repository/npm-all/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
-
-ienoopen@1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/ienoopen/-/ienoopen-1.0.0.tgz#346a428f474aac8f50cf3784ea2d0f16f62bda6b"
 
 ignore-walk@^3.0.1:
   version "3.0.1"
@@ -2185,7 +1999,7 @@ is-arrayish@^0.2.1:
 
 is-arrayish@^0.3.1:
   version "0.3.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
+  resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
 
 is-bluebird@^1.0.2:
   version "1.0.2"
@@ -2366,10 +2180,6 @@ is-windows@^1.0.2:
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://nexus.exelator.net/repository/npm-all/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
-
-isarray@2.0.1:
-  version "2.0.1"
-  resolved "https://nexus.exelator.net/repository/npm-all/isarray/-/isarray-2.0.1.tgz#a37d94ed9cda2d59865c9f76fe596ee1f338741e"
 
 isemail@2.x.x:
   version "2.2.1"
@@ -3325,10 +3135,6 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
-nocache@2.0.0:
-  version "2.0.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/nocache/-/nocache-2.0.0.tgz#202b48021a0c4cbde2df80de15a17443c8b43980"
-
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://nexus.exelator.net/repository/npm-all/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -3421,10 +3227,6 @@ object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1
   version "4.1.1"
   resolved "https://nexus.exelator.net/repository/npm-all/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
-object-component@0.0.3:
-  version "0.0.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/object-component/-/object-component-0.0.3.tgz#f0c69aa50efc95b866c186f400a33769cb2f1291"
-
 object-copy@^0.1.0:
   version "0.1.0"
   resolved "https://nexus.exelator.net/repository/npm-all/object-copy/-/object-copy-0.1.0.tgz#7e7d858b781bd7c991a41ba975ed3812754e998c"
@@ -3469,7 +3271,7 @@ on-finished@~2.3.0:
   dependencies:
     ee-first "1.1.1"
 
-on-headers@^1.0.1, on-headers@~1.0.1:
+on-headers@~1.0.1:
   version "1.0.1"
   resolved "https://nexus.exelator.net/repository/npm-all/on-headers/-/on-headers-1.0.1.tgz#928f5d0f470d49342651ea6794b0857c100693f7"
 
@@ -3582,18 +3384,6 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "https://nexus.exelator.net/repository/npm-all/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
 
-parseqs@0.0.5:
-  version "0.0.5"
-  resolved "https://nexus.exelator.net/repository/npm-all/parseqs/-/parseqs-0.0.5.tgz#d5208a3738e46766e291ba2ea173684921a8b89d"
-  dependencies:
-    better-assert "~1.0.0"
-
-parseuri@0.0.5:
-  version "0.0.5"
-  resolved "https://nexus.exelator.net/repository/npm-all/parseuri/-/parseuri-0.0.5.tgz#80204a50d4dbb779bfdc6ebe2778d90e4bce320a"
-  dependencies:
-    better-assert "~1.0.0"
-
 parseurl@~1.3.2:
   version "1.3.2"
   resolved "https://nexus.exelator.net/repository/npm-all/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
@@ -3657,10 +3447,6 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://nexus.exelator.net/repository/npm-all/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-pidusage@^1.1.6:
-  version "1.2.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/pidusage/-/pidusage-1.2.0.tgz#65ee96ace4e08a4cd3f9240996c85b367171ee92"
-
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://nexus.exelator.net/repository/npm-all/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -3699,10 +3485,6 @@ pkg-dir@^2.0.0:
   resolved "https://nexus.exelator.net/repository/npm-all/pkg-dir/-/pkg-dir-2.0.0.tgz#f6d5d1109e19d63edf428e0bd57e12777615334b"
   dependencies:
     find-up "^2.1.0"
-
-platform@1.3.5:
-  version "1.3.5"
-  resolved "https://nexus.exelator.net/repository/npm-all/platform/-/platform-1.3.5.tgz#fb6958c696e07e2918d2eeda0f0bc9448d733444"
 
 pluralize@^7.0.0:
   version "7.0.0"
@@ -3877,10 +3659,6 @@ realpath-native@^1.0.0:
   resolved "https://nexus.exelator.net/repository/npm-all/realpath-native/-/realpath-native-1.0.2.tgz#cd51ce089b513b45cf9b1516c82989b51ccc6560"
   dependencies:
     util.promisify "^1.0.0"
-
-referrer-policy@1.1.0:
-  version "1.1.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/referrer-policy/-/referrer-policy-1.1.0.tgz#35774eb735bf50fb6c078e83334b472350207d79"
 
 regenerator-runtime@^0.11.0:
   version "0.11.1"
@@ -4215,7 +3993,7 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
+  resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
   dependencies:
     is-arrayish "^0.3.1"
 
@@ -4259,48 +4037,6 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
-
-socket.io-adapter@~1.1.0:
-  version "1.1.1"
-  resolved "https://nexus.exelator.net/repository/npm-all/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz#2a805e8a14d6372124dd9159ad4502f8cb07f06b"
-
-socket.io-client@2.2.0:
-  version "2.2.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/socket.io-client/-/socket.io-client-2.2.0.tgz#84e73ee3c43d5020ccc1a258faeeb9aec2723af7"
-  dependencies:
-    backo2 "1.0.2"
-    base64-arraybuffer "0.1.5"
-    component-bind "1.0.0"
-    component-emitter "1.2.1"
-    debug "~3.1.0"
-    engine.io-client "~3.3.1"
-    has-binary2 "~1.0.2"
-    has-cors "1.1.0"
-    indexof "0.0.1"
-    object-component "0.0.3"
-    parseqs "0.0.5"
-    parseuri "0.0.5"
-    socket.io-parser "~3.3.0"
-    to-array "0.1.4"
-
-socket.io-parser@~3.3.0:
-  version "3.3.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/socket.io-parser/-/socket.io-parser-3.3.0.tgz#2b52a96a509fdf31440ba40fed6094c7d4f1262f"
-  dependencies:
-    component-emitter "1.2.1"
-    debug "~3.1.0"
-    isarray "2.0.1"
-
-socket.io@^2.0.3:
-  version "2.2.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/socket.io/-/socket.io-2.2.0.tgz#f0f633161ef6712c972b307598ecd08c9b1b4d5b"
-  dependencies:
-    debug "~4.1.0"
-    engine.io "~3.3.1"
-    has-binary2 "~1.0.2"
-    socket.io-adapter "~1.1.0"
-    socket.io-client "2.2.0"
-    socket.io-parser "~3.3.0"
 
 source-map-resolve@^0.5.0:
   version "0.5.2"
@@ -4642,10 +4378,6 @@ tmp@^0.0.33:
 tmpl@1.0.x:
   version "1.0.4"
   resolved "https://nexus.exelator.net/repository/npm-all/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-
-to-array@0.1.4:
-  version "0.1.4"
-  resolved "https://nexus.exelator.net/repository/npm-all/to-array/-/to-array-0.1.4.tgz#17e6c11f73dd4f3d74cda7a4ff3238e9ad9bf890"
 
 to-fast-properties@^1.0.3:
   version "1.0.3"
@@ -4994,23 +4726,9 @@ ws@^5.2.0:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@~6.1.0:
-  version "6.1.3"
-  resolved "https://nexus.exelator.net/repository/npm-all/ws/-/ws-6.1.3.tgz#d2d2e5f0e3c700ef2de89080ebc0ac6e1bf3a72d"
-  dependencies:
-    async-limiter "~1.0.0"
-
-x-xss-protection@1.1.0:
-  version "1.1.0"
-  resolved "https://nexus.exelator.net/repository/npm-all/x-xss-protection/-/x-xss-protection-1.1.0.tgz#4f1898c332deb1e7f2be1280efb3e2c53d69c1a7"
-
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://nexus.exelator.net/repository/npm-all/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
-
-xmlhttprequest-ssl@~1.5.4:
-  version "1.5.5"
-  resolved "https://nexus.exelator.net/repository/npm-all/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz#c2876b06168aadc40e57d97e81191ac8f4398b3e"
 
 xtend@^4.0.1:
   version "4.0.1"
@@ -5062,7 +4780,3 @@ yargs@^3.19.0:
     string-width "^1.0.1"
     window-size "^0.1.4"
     y18n "^3.2.0"
-
-yeast@0.1.2:
-  version "0.1.2"
-  resolved "https://nexus.exelator.net/repository/npm-all/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
