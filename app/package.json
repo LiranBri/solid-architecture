@@ -9,7 +9,7 @@
     "test": "jest --config jest.config.js",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "console": "node src/segments/interfaces/console/index.js"
+    "console": "node src/boards/interfaces/console/index.js"
   },
   "author": "Liran Brimer (liranbri@gmail.com)",
   "license": "ISC",

@@ -35,7 +35,7 @@ container.register({
 
 
 //    by name convention use the last directory as registered name
-container.loadModules(['src/segments/infrastructure/database/repositories/**/*.js'],
+container.loadModules(['src/boards/infrastructure/database/repositories/**/*.js'],
   {
     formatName: (name, { path: filePath }) =>
       _.chain(
@@ -53,6 +53,6 @@ container.register({
 })
 
 // Use Cases
-container.loadModules(['src/segments/application/use-cases/**/!(*.test).js'])
+container.loadModules(['src/boards/application/use-cases/**/!(*.test).js'])
 
 module.exports = container

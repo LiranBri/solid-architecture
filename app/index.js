@@ -1,4 +1,4 @@
-const container = require('./src/segments/container')
+const container = require('./src/boards/container')
 
 process.on('unhandledRejection', error => {
   console.error('unhandledRejection', error)
