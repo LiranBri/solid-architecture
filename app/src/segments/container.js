@@ -11,9 +11,9 @@ container
     app: asClass(require('./application/Application')).singleton(),
     server: asClass(require('./interfaces/http/Server')).singleton()
   }).register({
-  router: asFunction(require('./interfaces/http/router')).singleton(),
-  logger: asFunction(require('./infrastructure/logging/logger')).singleton()
-})
+    router: asFunction(require('./interfaces/http/router')).singleton(),
+    logger: asFunction(require('./infrastructure/logging/logger')).singleton()
+  })
 
 // Middlewares
 const errorHandler = require('./interfaces/http/errors/debugErrorHandler')
@@ -23,23 +23,29 @@ container.register({
 })
 
 // Repositories
-const SequelizeSegmentRepository = require('./infrastructure/database/repositories/segment-repository/SequelizeSegmentRepository')
-container.register({
-  segmentRepository: asClass(SequelizeSegmentRepository).singleton()
-})
+// const SequelizeSegmentRepository = require('./infrastructure/database/repositories/segment-repository/SequelizeSegmentRepository')
+// container.register({
+//   segmentRepository: asClass(SequelizeSegmentRepository).singleton()
+// })
 
-// //    by name convention use the last directory as registered name
-// container.loadModules(['src/segments/infrastructure/database/repositories/**/*.js'],
-//   {
-//     formatName: (name, { path: filePath }) =>
-//       _.chain(
-//         path.dirname(filePath).split('/')
-//       )
-//         .last()
-//         .camelCase()
-//         .value()
-//
-//   })
+// const SequelizeBoardsRepository = require('./infrastructure/database/repositories/boards-repository/SequelizeBoardsRepository')
+// container.register({
+//   boardsRepository: asClass(SequelizeBoardsRepository).singleton()
+// })
+
+
+//    by name convention use the last directory as registered name
+container.loadModules(['src/segments/infrastructure/database/repositories/**/*.js'],
+  {
+    formatName: (name, { path: filePath }) =>
+      _.chain(
+        path.dirname(filePath).split('/')
+      )
+        .last()
+        .camelCase()
+        .value()
+
+  })
 
 // Database
 container.register({

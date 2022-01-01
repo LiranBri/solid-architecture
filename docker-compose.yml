@@ -8,4 +8,4 @@
       environment:
         MYSQL_ROOT_PASSWORD: "mamram"
       ports:
-        - "4306:3306"
+        - "3306:3306"

@@ -7,7 +7,7 @@ module.exports = ({ logger }) => {
 
   const host = 'localhost'
   const database = 'core'
-  const port = 4306
+  const port = 3306
   const user = 'root'
   const password = 'mamram'
   logger.log(`initializing db connection to address ${host}:${port} ...`)
